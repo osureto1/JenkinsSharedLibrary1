@@ -11,6 +11,6 @@ def call(String stageName){
 
     else if ("${stageName}" == "Upload")
     {
-        sh "mvn clean deploy"
+        sh "mvn deploy"
     }
 }
